@@ -11,6 +11,8 @@
 		9CCE898625C3635200440C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE898525C3635200440C4D /* ViewController.swift */; };
 		9CCE898825C3635300440C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE898725C3635300440C4D /* Assets.xcassets */; };
 		9CCE898B25C3635300440C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE898925C3635300440C4D /* Main.storyboard */; };
+		9CCE899525C3642100440C4D /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE899425C3642100440C4D /* WindowController.swift */; };
+		9CCE899825C36C9000440C4D /* plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE899725C36C9000440C4D /* plant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9CCE898A25C3635300440C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CCE898C25C3635300440C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCE898D25C3635300440C4D /* TouchBarPlant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchBarPlant.entitlements; sourceTree = "<group>"; };
+		9CCE899425C3642100440C4D /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		9CCE899725C36C9000440C4D /* plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			children = (
 				9CCE898325C3635200440C4D /* AppDelegate.swift */,
 				9CCE898525C3635200440C4D /* ViewController.swift */,
+				9CCE899725C36C9000440C4D /* plant.swift */,
 				9CCE898725C3635300440C4D /* Assets.xcassets */,
 				9CCE898925C3635300440C4D /* Main.storyboard */,
+				9CCE899425C3642100440C4D /* WindowController.swift */,
 				9CCE898C25C3635300440C4D /* Info.plist */,
 				9CCE898D25C3635300440C4D /* TouchBarPlant.entitlements */,
 			);
@@ -133,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CCE898625C3635200440C4D /* ViewController.swift in Sources */,
+				9CCE899825C36C9000440C4D /* plant.swift in Sources */,
+				9CCE899525C3642100440C4D /* WindowController.swift in Sources */,
 				9CCE898425C3635200440C4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

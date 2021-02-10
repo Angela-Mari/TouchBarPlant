@@ -11,8 +11,10 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        print("view did load")
+        var myPlant = Plant(hydration: 0, sunshine: 0, happieness: 0)
+        
+        myPlant.sunny()
     }
 
     override var representedObject: Any? {
@@ -20,7 +22,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
 
 }
 
