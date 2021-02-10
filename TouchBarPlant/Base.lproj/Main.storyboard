@@ -691,7 +691,7 @@
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
@@ -700,14 +700,25 @@
                         <touchBarItems>
                             <touchBarItem id="NyT-st-2PW">
                                 <viewController key="viewController" id="E6E-hp-7fo">
-                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OkN-yd-95V">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XOY-qK-UuZ">
                                         <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
-                                        <buttonCell key="cell" type="push" title="Water" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GbO-Bn-p5k">
+                                        <buttonCell key="cell" type="push" bezelStyle="rounded" image="temp" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LVG-8j-VRH">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                             <connections>
-                                                <action selector="touchButton:" target="B8D-0N-5wS" id="qme-WK-nNg"/>
+                                                <action selector="touchButton:" target="B8D-0N-5wS" id="3bB-mu-wBV"/>
                                             </connections>
+                                        </buttonCell>
+                                    </button>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="y0A-BK-Mas">
+                                <viewController key="viewController" id="yfh-27-pau">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lXq-ut-pc9">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="Water" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YGd-8S-vqH">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
                                     </button>
                                 </viewController>
